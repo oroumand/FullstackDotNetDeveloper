@@ -1,26 +1,46 @@
-﻿Console.WriteLine("[S]ee All Todo");
+﻿
+Console.WriteLine("[S]ee All Todos");
 Console.WriteLine("[A]dd a todo");
 Console.WriteLine("[R]emove a todo");
 Console.WriteLine("[E]xit todo app");
+string userInput = Console.ReadLine();
+if (userInput == "S")
+{
+    PrintMessage("See All todos");
+}
+else if (userInput == "A")
+{
+    PrintMessage("Add a todo");
+}
+else if (userInput == "R")
+{
+    PrintMessage("Remove a todo");
+}
+else if (userInput == "E")
+{
+    PrintMessage("Exit todo app");
+}
 
-var num01 = 10;
-var num02 = 20;
+//Console.WriteLine(IsGraterThan(10, 11));
 
-// == , !=, >, >=, <, <=
-//!, &&, ||
-bool IsTrue1 = true && true;
-bool IsTrue2 = true && false;
-bool IsTrue3 = false && true;
-bool IsTrue4= false && false;
-bool IsTrue5= true && false;
+int AliAge = 30;
+int HosseinAge = 40;
+string IsAliGraterThanHosseing = IsGraterThan(AliAge, HosseinAge);
 
-bool IsLessThan = 10 < 20;
-
-
-Console.WriteLine(IsTrue1);
-Console.WriteLine(IsTrue2);
-Console.WriteLine(IsTrue3);
-Console.WriteLine(IsTrue4);
-
+bool IsGraterThan(int aliAge, int hosseinAge)
+{
+    return aliAge > hosseinAge;
+}
 
 Console.ReadLine();
+
+void PrintMessage(string userInputMessage)
+{
+    Console.WriteLine("User Select: " + userInputMessage);
+}
+
+
+//bool IsGraterThan(int input01, int input02)
+//{
+//    return input01 > input02;
+//}
