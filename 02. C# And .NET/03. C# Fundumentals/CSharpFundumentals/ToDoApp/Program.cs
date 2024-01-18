@@ -3,24 +3,30 @@ Console.WriteLine("[S]ee All Todos");
 Console.WriteLine("[A]dd a todo");
 Console.WriteLine("[R]emove a todo");
 Console.WriteLine("[E]xit todo app");
-string userInput = Console.ReadLine();
-if (userInput == "S")
-{
-    PrintMessage("See All todos");
-}
-else if (userInput == "A")
-{
-    PrintMessage("Add a todo");
-}
-else if (userInput == "R")
-{
-    PrintMessage("Remove a todo");
-}
-else if (userInput == "E")
-{
-    PrintMessage("Exit todo app");
-}
+char userInput = Console.ReadKey().KeyChar;
 
+switch (userInput)
+{
+    case 'S':
+    case 's':
+        PrintMessage("See All todos");
+        break;
+    case 'A':
+    case 'a':
+        PrintMessage("Add a todo");
+        break;
+    case 'R':
+    case 'r':
+        PrintMessage("Remove a todo");
+        break;
+    case 'E':
+    case 'e':
+        PrintMessage("Exit todo app");
+        break;
+    default:
+        PrintMessage("Invalid character please try ageain!");
+        break;
+}
 
 
 Console.ReadLine();
