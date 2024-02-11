@@ -1,10 +1,6 @@
-﻿
-
-
-
-Console.WriteLine("Hello. Wellcome to Todo App. Pleas select an option.");
+﻿Console.WriteLine("Hello. Wellcome to Todo App. Pleas select an option.");
 bool isExitSelected = false;
-List<string> Todos = [];
+List<string> todos = [];
 
 while (!isExitSelected)
 {
@@ -39,17 +35,58 @@ while (!isExitSelected)
     }
 }
 
+void SeeAllTodos()
+{
+    if (!AllowContinue())
+        return;
+
+    WriteWithWhiteSpace("Todo items are:");
+
+    for (int i = 0; i < todos.Count; i++)
+    {
+        string? item = todos[i];
+        Console.WriteLine($"{i + 1}: {item}");
+    }
+}
+void AddToDo()
+{
+    string inputMessage = string.Empty;
+    do
+    {
+        WriteWithWhiteSpace("Plese enter the todo message:");
+        inputMessage = Console.ReadLine();
+    } while (IsValidMessage(inputMessage));
+    todos.Add(inputMessage);
+}
+
+bool IsValidMessage(string message)
+{
+    bool isValid = true;
+    if (message == "")
+    {
+        Console.WriteLine("Invali message: message can not be empty.");
+        isValid = false;
+    }
+    else if (todos.Contains(message))
+    {
+
+        Console.WriteLine("Invali message: message can not be duplicate.");
+        isValid = false;
+
+    }
+    return isValid;
+}
 void RemovToDo()
 {
+    if (!AllowContinue())
+    {
+        return;
+    }
+
     bool isValidMessage = false;
     while (!isValidMessage)
     {
-        Console.WriteLine();
-        if (Todos.Count == 0)
-        {
-            Console.WriteLine("There is no todo.");
-        }
-        Console.WriteLine("Please select a todo number for remove.");
+        WriteWithWhiteSpace("Please select a todo number for remove.");
 
         SeeAllTodos();
         Console.Write("Selected index is: ");
@@ -62,11 +99,11 @@ void RemovToDo()
 
         if (int.TryParse(inputIndex, out int index))
         {
-            if (index >= 1 && index <= Todos.Count)
+            if (index >= 1 && index <= todos.Count)
             {
                 isValidMessage = true;
-                string todoForDelete = Todos[index - 1];
-                Todos.RemoveAt(index - 1);
+                string todoForDelete = todos[index - 1];
+                todos.RemoveAt(index - 1);
                 Console.WriteLine($"Todo removed: {todoForDelete}");
             }
             else
@@ -81,44 +118,18 @@ void RemovToDo()
     }
 
 }
-
-void SeeAllTodos()
+bool AllowContinue()
+{
+    if (todos.Count == 0)
+    {
+        WriteWithWhiteSpace("There is no todo.");
+        return false;
+    }
+    return true;
+}
+void WriteWithWhiteSpace(string text)
 {
     Console.WriteLine();
-    if (Todos.Count == 0)
-    {
-        Console.WriteLine("There is no todo.");
-    }
-    Console.WriteLine("Todo items are:");
-
-    for (int i = 0; i < Todos.Count; i++)
-    {
-        string? item = Todos[i];
-        Console.WriteLine($"{i + 1}: {item}");
-    }
-
+    Console.Write(text);
 }
 
-void AddToDo()
-{
-    bool isValidMessage = false;
-    while (!isValidMessage)
-    {
-        Console.WriteLine();
-        Console.Write("Plese enter the todo message:");
-        string inputMessage = Console.ReadLine();
-        if (inputMessage == "")
-        {
-            Console.WriteLine("Invali message: message can not be empty.");
-        }
-        else if (Todos.Contains(inputMessage))
-        {
-            Console.WriteLine("Invali message: message can not be duplicate.");
-        }
-        else
-        {
-            isValidMessage = true;
-            Todos.Add(inputMessage);
-        }
-    }
-}
