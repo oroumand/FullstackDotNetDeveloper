@@ -58,7 +58,6 @@ void AddToDo()
     } while (IsValidMessage(inputMessage));
     todos.Add(inputMessage);
 }
-
 bool IsValidMessage(string message)
 {
     bool isValid = true;
