@@ -1,13 +1,13 @@
 ﻿namespace SRP;
 public class Products
 {
-    private List<string> products = new();
+    public List<string> ProductsList = [];
 
     public void AddProduct(string productName)
     {
         if (IsValidProductName(productName))
         {
-            products.Add(productName);
+            ProductsList.Add(productName);
         }
         else
         {
@@ -15,28 +15,14 @@ public class Products
         }
     }
 
-    private bool IsValidProductName(string productName) =>
-       !(string.IsNullOrEmpty(productName)) && productName.Length >= 2 && productName.Length <= 100;
-
-    public void Save()
+    public void AddProducts(List<string> products)
     {
-        File.WriteAllLines(GetFileName(), products);
-    }
-
-    public void Load()
-    {
-        var lines = File.ReadAllLines(GetFileName());
-        foreach (var line in lines)
+        foreach (string productName in products)
         {
-            AddProduct(line);
+            AddProduct(productName);
         }
     }
-
-    public void PrintProductNames()
-    {
-        string productFormated = string.Join(", ", products);
-        Console.WriteLine(productFormated);
-    }
-
-    public string GetFileName() => "productNames.txt";
+    private bool IsValidProductName(string productName) =>
+       !(string.IsNullOrEmpty(productName)) && productName.Length >= 2 && productName.Length <= 100;    
+    
 }

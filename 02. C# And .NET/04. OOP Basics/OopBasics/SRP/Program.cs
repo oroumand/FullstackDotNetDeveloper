@@ -1,8 +1,11 @@
 ﻿using SRP;
 
 Products products = new();
+ListStringPrinter listStringPrinter = new ListStringPrinter();
+FilePathBuilder filePathBuilder = new FilePathBuilder();
+ListStringRepository productsRepository = new ListStringRepository();
 
-bool fileExists = File.Exists(products.GetFileName());
+bool fileExists = File.Exists(filePathBuilder.GetFileName());
 
 if (!fileExists)
 {
@@ -14,12 +17,13 @@ if (!fileExists)
         Console.Write($"Please get name of {i + 1} product:");
         products.AddProduct(Console.ReadLine());
     }
-    products.Save();
+    productsRepository.Save(products.ProductsList, filePathBuilder.GetFileName());
 }
 else
 {
-    products.Load();
-    products.PrintProductNames();
+    var productNames = productsRepository.GetLineStrings(filePathBuilder.GetFileName());
+    products.AddProducts(productNames);
+    listStringPrinter.Print(products.ProductsList);
 }
 
 Console.WriteLine("Finished!");
