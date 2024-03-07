@@ -19,42 +19,40 @@ using System.Reflection.Metadata.Ecma335;
 //}
 
 
-//MyColor red = new MyColor(255,0,0);
+////MyColor red = new MyColor(255,0,0);
 
-//Student student = new Student();
-//student.LastName = "Test";
-//Console.WriteLine(student.LastName);
+////Student student = new Student();
+////student.LastName = "Test";
+////Console.WriteLine(student.LastName);
 
-//Book book = new Book();
-//book.Description = "The best book for learning ASP.NET";
-//book.Name = "Pro ASP.NET Core";
+////Book book = new Book();
+////book.Description = "The best book for learning ASP.NET";
+////book.Name = "Pro ASP.NET Core";
 
 
-//Book efbook = new Book("First book  name","First book Description")
+////Book efbook = new Book("First book  name","First book Description")
+////{
+////    //Name = "Pro EF Core In Action",
+////    Description = "The Best book for learning EF Core"
+////};
+//Book efbook = new Book
 //{
-//    //Name = "Pro EF Core In Action",
-//    Description = "The Best book for learning EF Core"
+//    Name = "Pro EF Core In Action",
+//    //Description = "The Best book for learning EF Core"
 //};
-Book efbook = new Book
-{
-    Name = "Pro EF Core In Action",
-    //Description = "The Best book for learning EF Core"
-};
 
-Console.WriteLine($"{efbook.Name}: {efbook.Description}");
+//Console.WriteLine($"{efbook.Name}: {efbook.Description}");
+
+
+
+//StatelessCalculator.Sub(10, 20);
+//StatelessCalculator.Sum(10, 20);
+Console.WriteLine();
+
+for (int i = 0; i < Car.MaxValue; i++)
+{
+    Car mycar = new Car();
+    Console.WriteLine($"{i}");
+}
 
 Console.ReadLine();
-
-
-public class Book
-{
-    //public Book(string name, string decription)
-    //{
-    //    Name = name;
-    //    Description = decription;
-    //}
-
-    public required string Name { get; set; }
-    public string Description { get; init; }
-
-}
