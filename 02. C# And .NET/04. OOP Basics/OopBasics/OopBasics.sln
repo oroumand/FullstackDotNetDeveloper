@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassSamples", "ClassSample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatement", "TopLevelStatement\TopLevelStatement.csproj", "{10832D4C-101F-403E-B9EB-FA86F3366E9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamespaceSamples", "NamespaceSamples\NamespaceSamples.csproj", "{4A13DB41-6794-4516-9FE5-4A61FA994AC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{10832D4C-101F-403E-B9EB-FA86F3366E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10832D4C-101F-403E-B9EB-FA86F3366E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10832D4C-101F-403E-B9EB-FA86F3366E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A13DB41-6794-4516-9FE5-4A61FA994AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A13DB41-6794-4516-9FE5-4A61FA994AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A13DB41-6794-4516-9FE5-4A61FA994AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A13DB41-6794-4516-9FE5-4A61FA994AC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

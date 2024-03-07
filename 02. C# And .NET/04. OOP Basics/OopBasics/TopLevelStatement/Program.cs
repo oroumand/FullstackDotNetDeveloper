@@ -11,6 +11,7 @@
 
     class Rectangle
     {
+        
         private int _width = 3;
         private int _height = 5;
         public Rectangle(int width, int height)
@@ -21,6 +22,7 @@
 
         public void Print()
         {
+            
             Console.WriteLine($"Width:{_width}");
             Console.WriteLine($"Width:{_height}");
         }
