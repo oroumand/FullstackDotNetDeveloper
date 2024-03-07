@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamespaceSamples", "Namespa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SRP\SRP.csproj", "{78C48AD4-7212-4FE7-B64E-CA5E39AE22FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumberGame", "GuessNumberGame\GuessNumberGame.csproj", "{F52A34B8-A43F-4981-83C2-E5092FB436D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{78C48AD4-7212-4FE7-B64E-CA5E39AE22FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78C48AD4-7212-4FE7-B64E-CA5E39AE22FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78C48AD4-7212-4FE7-B64E-CA5E39AE22FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52A34B8-A43F-4981-83C2-E5092FB436D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52A34B8-A43F-4981-83C2-E5092FB436D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52A34B8-A43F-4981-83C2-E5092FB436D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52A34B8-A43F-4981-83C2-E5092FB436D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
