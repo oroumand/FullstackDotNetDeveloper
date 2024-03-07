@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatement", "TopLev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamespaceSamples", "NamespaceSamples\NamespaceSamples.csproj", "{4A13DB41-6794-4516-9FE5-4A61FA994AC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SRP\SRP.csproj", "{78C48AD4-7212-4FE7-B64E-CA5E39AE22FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4A13DB41-6794-4516-9FE5-4A61FA994AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A13DB41-6794-4516-9FE5-4A61FA994AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A13DB41-6794-4516-9FE5-4A61FA994AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C48AD4-7212-4FE7-B64E-CA5E39AE22FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C48AD4-7212-4FE7-B64E-CA5E39AE22FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C48AD4-7212-4FE7-B64E-CA5E39AE22FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C48AD4-7212-4FE7-B64E-CA5E39AE22FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
