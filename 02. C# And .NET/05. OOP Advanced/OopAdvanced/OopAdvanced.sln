@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopAdvanced.Overridings", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.Exercise01", "OopAdvanced.Exercise01\OopAdvanced.Exercise01.csproj", "{406F95E8-605D-4618-B04C-AF6C71D4D1F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.ObjectClassSample", "OopAdvanced.ObjectClassSample\OopAdvanced.ObjectClassSample.csproj", "{A37A17B9-19FC-48FF-BD10-B6FD375B4EE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{406F95E8-605D-4618-B04C-AF6C71D4D1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406F95E8-605D-4618-B04C-AF6C71D4D1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{406F95E8-605D-4618-B04C-AF6C71D4D1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37A17B9-19FC-48FF-BD10-B6FD375B4EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37A17B9-19FC-48FF-BD10-B6FD375B4EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37A17B9-19FC-48FF-BD10-B6FD375B4EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37A17B9-19FC-48FF-BD10-B6FD375B4EE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
