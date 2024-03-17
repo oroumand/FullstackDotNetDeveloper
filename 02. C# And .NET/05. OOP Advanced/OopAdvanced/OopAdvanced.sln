@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.TypeCastingSamp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.AbstractSamples", "OopAdvanced.AbstractSamples\OopAdvanced.AbstractSamples.csproj", "{8AEAE81D-877C-40D7-886D-2B977DDC67BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.SealedSamples", "OopAdvanced.SealedSamples\OopAdvanced.SealedSamples.csproj", "{D8F8B54E-681D-4EAC-A8CF-30DB2CA7782E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{8AEAE81D-877C-40D7-886D-2B977DDC67BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AEAE81D-877C-40D7-886D-2B977DDC67BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AEAE81D-877C-40D7-886D-2B977DDC67BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F8B54E-681D-4EAC-A8CF-30DB2CA7782E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F8B54E-681D-4EAC-A8CF-30DB2CA7782E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F8B54E-681D-4EAC-A8CF-30DB2CA7782E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F8B54E-681D-4EAC-A8CF-30DB2CA7782E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
