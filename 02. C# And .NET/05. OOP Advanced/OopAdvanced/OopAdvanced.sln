@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.AbstractSamples
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.SealedSamples", "OopAdvanced.SealedSamples\OopAdvanced.SealedSamples.csproj", "{D8F8B54E-681D-4EAC-A8CF-30DB2CA7782E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.ExtensionSamples", "OopAdvanced.ExtensionSamples\OopAdvanced.ExtensionSamples.csproj", "{0ED630D3-052E-4EF3-951B-8C49642FBC15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D8F8B54E-681D-4EAC-A8CF-30DB2CA7782E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8F8B54E-681D-4EAC-A8CF-30DB2CA7782E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8F8B54E-681D-4EAC-A8CF-30DB2CA7782E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED630D3-052E-4EF3-951B-8C49642FBC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED630D3-052E-4EF3-951B-8C49642FBC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED630D3-052E-4EF3-951B-8C49642FBC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED630D3-052E-4EF3-951B-8C49642FBC15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
