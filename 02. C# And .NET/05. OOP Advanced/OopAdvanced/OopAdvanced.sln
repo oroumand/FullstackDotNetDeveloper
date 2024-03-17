@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopAdvanced.ObjectClassSamp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.BaseSamples", "OopAdvanced.BaseSamples\OopAdvanced.BaseSamples.csproj", "{893AB540-9BD6-4E01-A9D9-D62B640B44FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.TypeCastingSample", "OopAdvanced.TypeCastingSample\OopAdvanced.TypeCastingSample.csproj", "{4D245E48-4ED0-404F-88E8-D1B9AC81B5F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{893AB540-9BD6-4E01-A9D9-D62B640B44FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893AB540-9BD6-4E01-A9D9-D62B640B44FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{893AB540-9BD6-4E01-A9D9-D62B640B44FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D245E48-4ED0-404F-88E8-D1B9AC81B5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D245E48-4ED0-404F-88E8-D1B9AC81B5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D245E48-4ED0-404F-88E8-D1B9AC81B5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D245E48-4ED0-404F-88E8-D1B9AC81B5F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
