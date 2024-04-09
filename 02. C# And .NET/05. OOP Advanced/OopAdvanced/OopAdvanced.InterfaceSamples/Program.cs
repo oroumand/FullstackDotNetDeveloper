@@ -49,13 +49,13 @@ public class Parrot : Bird
 
 public class VasayelHamlonaghl
 {
-
+    
 }
 
 public class Plane : VasayelHamlonaghl, IFlyable
 {
     public void Fly()
-    {
+    {        
         throw new NotImplementedException();
     }
 }
