@@ -1,19 +1,11 @@
 ﻿
-public class FoodRecipeRepository: IFoodRecipeRepository
-{
-    public object GetAll(string filePath)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void Save(object recipes)
-    {
-        throw new NotImplementedException();
-    }
-}
-
+using OopAdvanced.FoodRecipes.Model;
+using System.Collections.Generic;
+using System.Text.Json.Serialization;
+using static FoodTextRecipeRepository;
 public interface IFoodRecipeRepository
 {
-    object GetAll(string filePath);
-    void Save(object recipes);
+    List<Recipe> GetAll(string fileName);
+    void Save(string fileName, List<Recipe> recipes);
+    int GetNextId();
 }
