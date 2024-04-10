@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopAdvanced.ExtensionSample
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopAdvanced.InterfaceSamples", "OopAdvanced.InterfaceSamples\OopAdvanced.InterfaceSamples.csproj", "{59A714F5-D096-4DA5-81AD-5F6B9DE7430B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.SerializationSample", "OopAdvanced.SerializationSample\OopAdvanced.SerializationSample.csproj", "{81CBF366-9851-4688-A016-EB525CF8D0DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopAdvanced.SerializationSample", "OopAdvanced.SerializationSample\OopAdvanced.SerializationSample.csproj", "{81CBF366-9851-4688-A016-EB525CF8D0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAdvanced.FoodRecipes", "OopAdvanced.FoodRecipes\OopAdvanced.FoodRecipes.csproj", "{17EDDFDA-1E32-4B18-AA91-79FBED6A95FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{81CBF366-9851-4688-A016-EB525CF8D0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81CBF366-9851-4688-A016-EB525CF8D0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81CBF366-9851-4688-A016-EB525CF8D0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EDDFDA-1E32-4B18-AA91-79FBED6A95FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EDDFDA-1E32-4B18-AA91-79FBED6A95FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EDDFDA-1E32-4B18-AA91-79FBED6A95FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EDDFDA-1E32-4B18-AA91-79FBED6A95FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
