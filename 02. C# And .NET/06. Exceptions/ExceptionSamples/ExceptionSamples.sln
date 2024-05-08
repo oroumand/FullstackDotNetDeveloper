@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionSamples.StackTrace
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionSamples.ExceptionHandlingSample", "ExceptionSamples.ExceptionHandlingSample\ExceptionSamples.ExceptionHandlingSample.csproj", "{23FF8B4A-AA36-4D4A-98E8-35AFE44799EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionSamples.MultipleEx", "ExceptionSamples.MultipleEx\ExceptionSamples.MultipleEx.csproj", "{65DFE66C-C9E6-418E-909F-F281072D6444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionSamples.ThrowEx", "ExceptionSamples.ThrowEx\ExceptionSamples.ThrowEx.csproj", "{445C0F0A-01FC-41D6-BF6C-1BF0D8723828}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{23FF8B4A-AA36-4D4A-98E8-35AFE44799EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23FF8B4A-AA36-4D4A-98E8-35AFE44799EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23FF8B4A-AA36-4D4A-98E8-35AFE44799EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DFE66C-C9E6-418E-909F-F281072D6444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DFE66C-C9E6-418E-909F-F281072D6444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DFE66C-C9E6-418E-909F-F281072D6444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DFE66C-C9E6-418E-909F-F281072D6444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445C0F0A-01FC-41D6-BF6C-1BF0D8723828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445C0F0A-01FC-41D6-BF6C-1BF0D8723828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445C0F0A-01FC-41D6-BF6C-1BF0D8723828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445C0F0A-01FC-41D6-BF6C-1BF0D8723828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
