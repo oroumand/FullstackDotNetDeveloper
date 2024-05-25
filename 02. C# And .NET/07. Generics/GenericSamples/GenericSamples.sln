@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSamples.Delegates", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSamples.DictionarySamples", "GenericSamples.DictionarySamples\GenericSamples.DictionarySamples.csproj", "{24147ED6-58A8-4470-AFC2-6907854528DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSamples.FinalEx", "GenericSamples.FinalEx\GenericSamples.FinalEx.csproj", "{A050A4BA-1639-47C8-AB96-45A64DD824A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{24147ED6-58A8-4470-AFC2-6907854528DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24147ED6-58A8-4470-AFC2-6907854528DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24147ED6-58A8-4470-AFC2-6907854528DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A050A4BA-1639-47C8-AB96-45A64DD824A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A050A4BA-1639-47C8-AB96-45A64DD824A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A050A4BA-1639-47C8-AB96-45A64DD824A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A050A4BA-1639-47C8-AB96-45A64DD824A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
