@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetInternal.ValueVsReference", "DotNetInternal.ValueVsReference\DotNetInternal.ValueVsReference.csproj", "{07762DB3-4F00-4AC3-ADE8-325ACD8EFF24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetInternal.RefAndOut", "DotNetInternal.RefAndOut\DotNetInternal.RefAndOut.csproj", "{35B949E7-AE68-4B34-B546-B5F87AD310FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetInternal.BoxingAndUnboxing", "DotNetInternal.BoxingAndUnboxing\DotNetInternal.BoxingAndUnboxing.csproj", "{E2E79EC0-57B8-4B05-A45F-1BA0AADBCC25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{07762DB3-4F00-4AC3-ADE8-325ACD8EFF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07762DB3-4F00-4AC3-ADE8-325ACD8EFF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07762DB3-4F00-4AC3-ADE8-325ACD8EFF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B949E7-AE68-4B34-B546-B5F87AD310FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B949E7-AE68-4B34-B546-B5F87AD310FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B949E7-AE68-4B34-B546-B5F87AD310FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B949E7-AE68-4B34-B546-B5F87AD310FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E79EC0-57B8-4B05-A45F-1BA0AADBCC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E79EC0-57B8-4B05-A45F-1BA0AADBCC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E79EC0-57B8-4B05-A45F-1BA0AADBCC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E79EC0-57B8-4B05-A45F-1BA0AADBCC25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
